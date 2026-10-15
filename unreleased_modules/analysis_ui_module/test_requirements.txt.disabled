@@ -1,0 +1,8 @@
+coverage
+pytest
+pytest-mock
+pytest-pycodestyle
+pytest-html
+pytest-ruff
+ruff
+mongomock

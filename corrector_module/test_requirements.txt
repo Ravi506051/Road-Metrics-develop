@@ -1,0 +1,9 @@
+coverage
+pytest
+pytest-mock
+pytest-pycodestyle
+pytest-ruff
+pytest-html
+ruff
+mongomock
+freezegun==1.5.5

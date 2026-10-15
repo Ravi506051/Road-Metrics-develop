@@ -1,0 +1,13 @@
+coverage
+mongomock
+pytest
+pytest-mock
+pytest-ruff
+pytest-html
+ruff
+pymongo-stubs
+matplotlib-stubs
+pandas-stubs
+types-Jinja2
+types-jsonschema
+types-PyYAML

@@ -1,0 +1,14 @@
+coverage
+pytest
+pytest-mock
+pytest-ruff
+pytest-html
+ruff
+mongomock
+psycopg2-binary
+pytest-django
+python-dateutil
+freezegun
+django-stubs
+pytz
+pyyaml

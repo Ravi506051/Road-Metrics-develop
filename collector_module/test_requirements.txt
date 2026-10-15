@@ -1,0 +1,9 @@
+coverage
+pytest
+pytest-mock
+pytest-ruff
+pytest-html
+ruff
+responses
+mongomock
+pymongo-stubs
