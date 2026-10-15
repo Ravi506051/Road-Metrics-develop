@@ -93,3 +93,8 @@ No support for X-Road Metrics deployment is provided here.
   [RHR 183990](https://riigihanked.riik.ee/register/hange/183990)
 * In 2020 it was agreed that [Nordic Institute for Interoperability Solutions (NIIS)](https://www.niis.org/) takes
   maintenance responsibility.
+Road Metrics can help transform raw service metrics into meaningful insights for operational analysis. By examining historical data and comparing service activity across different time periods, teams can identify usage trends, investigate unexpected changes, and make informed decisions.
+
+Accurate and consistent metrics can also support capacity planning by revealing changes in service demand and resource utilization. Standardized metric definitions, timestamps, units, and formats make comparisons easier and improve the reliability of analytical results.
+
+Clear summaries and meaningful data comparisons can help developers understand system behavior and investigate potential performance issues. Future improvements could include advanced trend analysis, anomaly detection, automated reporting, and interactive data visualization to make metric analysis more accessible and efficient.
