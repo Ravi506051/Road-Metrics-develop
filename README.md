@@ -106,3 +106,9 @@ This repository contains the X-Road Metrics project. The upstream project docume
 ## Safe Development Practices
 
 When experimenting with metrics or integrations, use non-production test data, document configuration changes, and avoid publishing credentials, endpoint secrets, or sensitive operational telemetry. Follow the upstream contribution and licensing guidance before redistributing changes.
+
+## Project Development Notes
+
+This is an upstream X-Road Metrics codebase. Preserve upstream license and attribution, distinguish local changes from upstream functionality, and avoid publishing sensitive operational telemetry.
+
+For reproducible updates, record the dataset or upstream version, environment and dependency versions, configuration, and actual outputs from each run. Keep illustrative examples clearly labelled and never commit credentials or private data.
