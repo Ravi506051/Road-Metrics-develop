@@ -112,3 +112,9 @@ When experimenting with metrics or integrations, use non-production test data, d
 This is an upstream X-Road Metrics codebase. Preserve upstream license and attribution, distinguish local changes from upstream functionality, and avoid publishing sensitive operational telemetry.
 
 For reproducible updates, record the dataset or upstream version, environment and dependency versions, configuration, and actual outputs from each run. Keep illustrative examples clearly labelled and never commit credentials or private data.
+
+### Technical Deep Dive
+
+This repository is an upstream X-Road Metrics codebase with separate database, collector, corrector, reporting, anonymization, open-data, and networking modules. Preserve the documented module installation order and consult the upstream architecture and developer guides before changing interfaces. For metric pipelines, pay attention to timestamp normalization, units, schema compatibility, and data provenance across collection and correction stages.
+
+Suggested engineering checks: use synthetic telemetry for local tests, validate anonymization before publication, monitor collector failures and data freshness, and retain upstream licensing and attribution when distributing changes.
