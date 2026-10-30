@@ -98,3 +98,11 @@ Road Metrics can help transform raw service metrics into meaningful insights for
 Accurate and consistent metrics can also support capacity planning by revealing changes in service demand and resource utilization. Standardized metric definitions, timestamps, units, and formats make comparisons easier and improve the reliability of analytical results.
 
 Clear summaries and meaningful data comparisons can help developers understand system behavior and investigate potential performance issues. Future improvements could include advanced trend analysis, anomaly detection, automated reporting, and interactive data visualization to make metric analysis more accessible and efficient.
+
+## Repository Context
+
+This repository contains the X-Road Metrics project. The upstream project documentation, architecture, license, and community resources remain the authoritative references for the software. Any local experiments or adaptations should be documented separately and should not imply that this fork is an independently maintained official X-Road release.
+
+## Safe Development Practices
+
+When experimenting with metrics or integrations, use non-production test data, document configuration changes, and avoid publishing credentials, endpoint secrets, or sensitive operational telemetry. Follow the upstream contribution and licensing guidance before redistributing changes.
