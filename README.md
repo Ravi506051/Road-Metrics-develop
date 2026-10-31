@@ -118,3 +118,15 @@ For reproducible updates, record the dataset or upstream version, environment an
 This repository is an upstream X-Road Metrics codebase with separate database, collector, corrector, reporting, anonymization, open-data, and networking modules. Preserve the documented module installation order and consult the upstream architecture and developer guides before changing interfaces. For metric pipelines, pay attention to timestamp normalization, units, schema compatibility, and data provenance across collection and correction stages.
 
 Suggested engineering checks: use synthetic telemetry for local tests, validate anonymization before publication, monitor collector failures and data freshness, and retain upstream licensing and attribution when distributing changes.
+
+## Local Development and Validation Notes
+
+For contributors exploring this codebase, start by reviewing the existing architecture and official project documentation before changing components. Keep changes small and test them against the repository's established build and test commands.
+
+When working with metrics integrations:
+- Record the source system, metric definition, unit, collection time, and environment.
+- Validate missing, delayed, duplicated, and out-of-range measurements.
+- Avoid publishing operational data, credentials, or identifying infrastructure details.
+- Include reproducible test data and expected outputs when adding a new metric.
+
+This section is supplementary contributor guidance and does not replace the upstream documentation, license, or attribution.
