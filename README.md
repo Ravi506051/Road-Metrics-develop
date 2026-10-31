@@ -130,3 +130,11 @@ When working with metrics integrations:
 - Include reproducible test data and expected outputs when adding a new metric.
 
 This section is supplementary contributor guidance and does not replace the upstream documentation, license, or attribution.
+
+## Data Pipeline and Metric Quality
+
+- Define each road or traffic metric with its unit, aggregation window, and source before comparing results.
+- Validate incoming records for missing timestamps, duplicate identifiers, invalid coordinates, and out-of-range values.
+- Keep preprocessing and aggregation steps reproducible and record the source-data version.
+- Distinguish measured observations from model-generated estimates in dashboards and reports.
+- Add tests for edge cases such as empty intervals, sparse observations, and inconsistent sampling rates.
