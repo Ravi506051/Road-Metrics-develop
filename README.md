@@ -138,3 +138,9 @@ This section is supplementary contributor guidance and does not replace the upst
 - Keep preprocessing and aggregation steps reproducible and record the source-data version.
 - Distinguish measured observations from model-generated estimates in dashboards and reports.
 - Add tests for edge cases such as empty intervals, sparse observations, and inconsistent sampling rates.
+
+## Local Fork and Integration Notes
+
+This repository contains the upstream X-Road Metrics project. Preserve the original authors' notices, licensing, and documentation when maintaining this local copy.
+
+For any local integration, record the upstream revision and the exact changes introduced. Validate metric names, units, source identifiers, timestamps, and access scope before publishing data. Keep demonstration data distinct from live operational metrics, and do not expose credentials or private service information.
