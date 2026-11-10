@@ -144,3 +144,12 @@ This section is supplementary contributor guidance and does not replace the upst
 This repository contains the upstream X-Road Metrics project. Preserve the original authors' notices, licensing, and documentation when maintaining this local copy.
 
 For any local integration, record the upstream revision and the exact changes introduced. Validate metric names, units, source identifiers, timestamps, and access scope before publishing data. Keep demonstration data distinct from live operational metrics, and do not expose credentials or private service information.
+
+## Repository and Attribution Notes
+
+This repository contains the upstream X-Road Metrics project. This README addition is intended as repository-use and review guidance; it does not claim authorship of the upstream implementation.
+
+- Review the upstream documentation and license before modifying or redistributing components.
+- Keep local experiments and configuration changes separate from upstream source where possible.
+- When documenting a change, identify the exact module, expected behaviour, and validation performed.
+- Preserve upstream notices, attribution, and contribution requirements.
