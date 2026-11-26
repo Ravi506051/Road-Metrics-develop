@@ -30,12 +30,12 @@ from setuptools import setup, find_packages
 requirements = [
     'setuptools==82.0.1',
     'Jinja2==3.1.6',
-    'matplotlib==3.10.8',
+    'matplotlib==3.10.9',
     'pandas==2.3.3',
     'weasyprint==68.1',
     'Pillow==12.1.1',
-    'pymongo==4.16.0',
-    'pyyaml==6.0.3',
+    'pymongo==4.18.3',
+    'pyyaml==6.0.4',
     'jsonschema==4.26.0',
     'numpy==2.2.6',
 ]
