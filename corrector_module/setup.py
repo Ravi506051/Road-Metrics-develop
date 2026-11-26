@@ -26,8 +26,8 @@ from setuptools import setup
 
 requirements = [
     'setuptools==82.0.1',
-    'pymongo==4.16.0',
-    'pyyaml==6.0.3',
+    'pymongo==4.18.3',
+    'pyyaml==6.0.4',
 ]
 
 classifiers = [
